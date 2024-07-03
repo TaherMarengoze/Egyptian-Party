@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.side-menu-btn{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+}
+
+.side-menu{
+    overflow: hidden;
+    width: 0px;
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 99999;
+}
+
+.side-menu li{
+    margin-left: 1rem;
+    margin-bottom: 25px;
+}
+
+.side-menu-close-btn{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 350ms;
+    align-self: flex-end;
+    margin: 10px 30px 0 0;
+}
+
+.side-menu-close-btn:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.side-menu li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 350ms;
+}
+
+.side-menu li a:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+
+#home .content{
+    color: #fff;
+    background-color: #ff634788;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+h1::before{
+    content: "ُ";
+}
+
+
+
+.accord-head{
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(214, 46, 51 , 0.6);
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.accord-body{
+    overflow: hidden;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+#counter{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 330px;
+    position: relative;
+    color: #fff;
+}
+
+.counter-element{
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 60px;
+    font-size: 30px;
+}
+
+#remaingCharCntr{
+    color: maroon;
+    font-size: 25px;
+}
+
+#contact{
+    margin-top: 6rem;
+}
+
+.contact-link{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #888;
+    line-height: 32px;
+    margin-right: 2rem;
+    transition: all 300ms;
+    text-align: center;
+}
+
+.contact-link:hover{
+    background-color: maroon;
+    color: #fff;
+}
